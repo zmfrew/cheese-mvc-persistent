@@ -13,12 +13,10 @@
 
             <tr>
                 <th>Name</th>
-                <th>Description</th>
-                <th>Category</th>
             </tr>
 
             <tr th:each="menu : ${menus}">
-                <a th:href="'/menu/view/' + ${menu.id}" th:text="${menu.name}" ></a>
+                <td><a th:href="'/menu/view/' + ${menu.id}" th:text="${menu.name}" ></a></td>
             </tr>
 
         </table>

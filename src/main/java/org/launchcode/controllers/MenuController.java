@@ -41,7 +41,7 @@ public class MenuController {
 
     @RequestMapping(value = "add", method = RequestMethod.POST)
     public String processAddMenuForm(@ModelAttribute @Valid Menu newMenu,
-                                       Errors errors, @RequestParam int categoryId, Model model) {
+                                       Errors errors, Model model) {
 
         if (errors.hasErrors()) {
             model.addAttribute("title", "Add Cheese");
