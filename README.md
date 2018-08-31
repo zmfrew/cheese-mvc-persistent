@@ -23,5 +23,4 @@ Cheese-MVC-Persistent is a web application built with Java and Spring Boot, whic
 
 
 ## Project Dates
-Started: 8/7/18 
-Completed: 8/11/18
+Started and completed on 6/13/18
