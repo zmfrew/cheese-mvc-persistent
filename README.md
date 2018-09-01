@@ -1,4 +1,4 @@
-# DevMountain Project - Timeline
+# LaunchCode - LC101 Project - Cheese-MVC-Persistent
 
 ## Description 
 Cheese-MVC-Persistent is a web application built with Java and Spring Boot, which is the culmination of all concepts learned in LaunchCode's LC101 class. It includes persistence, form validation, MVC structure, and object oriented design principles.
